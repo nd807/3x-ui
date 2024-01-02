@@ -16,7 +16,7 @@ body {
     font-feature-settings: "tnum";
 }
 html {
-    --antd-wave-shadow-color: #008771;
+    --antd-wave-shadow-color: #FF8B3E;
     line-height: 1.15;
     text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -26,7 +26,7 @@ html {
 }
 
 ::selection {
-    color: #008771;
+    color: #FF8B3E;
     background-color: #cfe8e4;
 }
 
@@ -179,11 +179,11 @@ style attribute {
 }
 
 .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
-    background-color: #006655 !important;
+    background-color: #FF8B3E !important;
     background-image: linear-gradient(
         270deg,
         rgba(123, 199, 77, 0) 30%,
-        #009980,
+        #FF8B3E,
         rgba(123, 199, 77, 0) 100%
     );
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ style attribute {
 .ant-menu-submenu-active,
 .ant-menu-submenu-title:hover,
 .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open {
-    color: #008771;
+    color: #FF8B3E;
     background-color: rgb(232 244 242);
     border-radius: 0.5rem;
 }
@@ -480,14 +480,14 @@ style attribute {
 }
 
 .normal-icon:hover {
-    color: #008771;
+    color: #FF8B3E;
 }
 
 /* DARK THEME */
 
 .dark ::selection {
     color: #fff;
-    background-color: #008771;
+    background-color: #FF8B3E;
 }
 
 .dark .normal-icon:hover {
@@ -639,27 +639,27 @@ style attribute {
 .dark .ant-input:hover,
 .dark .ant-input:focus {
     background-color: rgba(0, 135, 113, 0.3);
-    border-color: #008771;
+    border-color: #FF8B3E;
 }
 
 .dark .ant-btn:not(.ant-btn-primary):not(.ant-btn-danger) {
     color: rgba(255, 255, 255, 0.65);
     background-color: rgb(10 117 87 / 30%);
-    border: 1px solid #008771;
+    border: 1px solid #FF8B3E;
 }
 
 .dark .ant-radio-button-wrapper,
 .dark .ant-radio-button-wrapper:before {
     color: rgb(255 255 255 / 65%);
     background-color: rgba(0, 135, 113, 0.3);
-    border-color: #008771;
+    border-color: #FF8B3E;
 }
 
 .dark .ant-btn:focus:not(.ant-btn-primary):not(.ant-btn-danger),
 .dark .ant-btn:hover:not(.ant-btn-primary):not(.ant-btn-danger) {
     color: #fff;
     background-color: rgb(10 117 87 / 50%);
-    border-color: #008771;
+    border-color: #FF8B3E;
 }
 
 .dark .ant-btn-primary[disabled],
@@ -772,7 +772,7 @@ style attribute {
 }
 
 .dark .ant-calendar-selected-day .ant-calendar-date {
-    background-color: #008771 !important;
+    background-color: #FF8B3E !important;
     color: #fff;
 }
 
@@ -792,7 +792,7 @@ style attribute {
     color: #fff;
     font-weight: 600;
     outline: none;
-    background-color: #008771;
+    background-color: #FF8B3E;
 }
 
 .dark .ant-calendar-time-picker-select {
@@ -874,19 +874,19 @@ style attribute {
 }
 
 .ant-calendar-today .ant-calendar-date {
-    color: #008771;
+    color: #FF8B3E;
     font-weight: 700;
-    border-color: #008771;
+    border-color: #FF8B3E;
 }
 
 .dark .ant-calendar-today .ant-calendar-date {
     color: #fff;
     font-weight: 700;
-    border-color: #008771;
+    border-color: #FF8B3E;
 }
 
 .ant-calendar-selected-day .ant-calendar-date {
-    background: #008771;
+    background: #FF8B3E;
     color: #ffffff;
 }
 
@@ -920,7 +920,7 @@ li.ant-select-dropdown-menu-item:empty:after {
 .ant-select-dropdown.ant-select-dropdown--multiple
     .ant-select-dropdown-menu-item-selected:hover
     .ant-select-selected-icon {
-    color: #008771;
+    color: #FF8B3E;
 }
 .ant-select-selection:hover,
 .ant-input-number-focused,
@@ -929,7 +929,7 @@ li.ant-select-dropdown-menu-item:empty:after {
 }
 
 .dark .ant-input-number-handler:active {
-    background-color: #008771;
+    background-color: #FF8B3E;
 }
 
 .dark .ant-input-number-handler:hover .ant-input-number-handler-down-inner,
@@ -1000,7 +1000,7 @@ li.ant-select-dropdown-menu-item:empty:after {
     .ant-calendar-decade-panel-selected-cell
     .ant-calendar-decade-panel-decade:hover {
     color: #fff;
-    background-color: #008771;
+    background-color: #FF8B3E;
 }
 
 .dark .ant-calendar-last-month-cell .ant-calendar-date,
@@ -1014,8 +1014,8 @@ li.ant-select-dropdown-menu-item:empty:after {
 
 .dark .ant-calendar-today .ant-calendar-date:hover {
     color: #fff;
-    border-color: #008771;
-    background-color: #008771;
+    border-color: #FF8B3E;
+    background-color: #FF8B3E;
 }
 
 .dark
